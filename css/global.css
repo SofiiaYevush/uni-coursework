@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color-black: #000000;
+    --text-color-white: #ffffff;
+    --background-color: #ffffff;
+    --button-white-color: #ffffff;
+    --header-maroon-color: #800000;
+    --header-first-shade: #f76f6b;
+    --grey: #ddd;
+    scroll-behavior: smooth;
+    /*font-family: ;*/
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
