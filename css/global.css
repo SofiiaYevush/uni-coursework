@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +12,8 @@
     --background-color: #ffffff;
     --button-white-color: #ffffff;
     --header-maroon-color: #800000;
+    --button-maroon-color: #800000;
+    --devider-maroon-color: #800000;
     --header-first-shade: #f76f6b;
     --grey: #ddd;
     scroll-behavior: smooth;
@@ -24,6 +26,6 @@ img {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
 }
