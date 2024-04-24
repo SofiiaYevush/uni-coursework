@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home page</title>
     <!--<link rel="icon" type="image/x-icon" href="img/favicon.ico"> -->
-	<link rel="stylesheet" type="text/css" href="home.css" />
+	<link rel="stylesheet" type="text/css" href="home.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/header.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header class="header">
@@ -16,6 +18,7 @@
             <div class="header__menu">
                 <a href="home.html" class="menu__item">Головна</a>
                 <a href="#" class="menu__item">Про нас</a>
+                <a href="#" class="menu__item">Спеціалісти</a>
                 <div class="menu__item-dropdown">
                     <button class="menu__dropdown-btn">Категорії 
                       <i class="fa fa-caret-down"></i>
@@ -24,19 +27,47 @@
                       <a href="#">Link 1</a>
                       <a href="#">Link 2</a>
                       <a href="#">Link 3</a>
+                      <a href="#">Link 3</a>
+                      <a href="#">Link 3</a>
+                      <a href="#">Link 3</a>
+                      <a href="#">Link 3</a>
                     </div>   
                 </div>
-                <a href="#" class="menu__item">Спеціалісти</a> 
             </div>
-            <div class="header__menu-sign-items">
-                <a href="#" class="menu__item">Увійти</a>
-                <button class="menu__signup-btn red-button"><a href="#" class="menu__item">Зареєструватись</a></button>
-                
-            </div>
-            <div class="header__search-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 30 30" style="fill:#FFFFFF;"><path d="M 13 3 C 7.4889971 3 3 7.4889971 3 13 C 3 18.511003 7.4889971 23 13 23 C 15.396508 23 17.597385 22.148986 19.322266 20.736328 L 25.292969 26.707031 A 1.0001 1.0001 0 1 0 26.707031 25.292969 L 20.736328 19.322266 C 22.148986 17.597385 23 15.396508 23 13 C 23 7.4889971 18.511003 3 13 3 z M 13 5 C 17.430123 5 21 8.5698774 21 13 C 21 17.430123 17.430123 21 13 21 C 8.5698774 21 5 17.430123 5 13 C 5 8.5698774 8.5698774 5 13 5 z"></path></svg>
+            <div class="header__menu-sign-items">                
+                <a href="#" class="menu__item">Зареєструватись</a>
+                <button class="menu__signup-btn"><a href="#" class="signup-btn">Увійти</a></button>
+                <div class="header__search-icon">
+                    <!--<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 30 30" style="fill:#FFFFFF;"><path d="M 13 3 C 7.4889971 3 3 7.4889971 3 13 C 3 18.511003 7.4889971 23 13 23 C 15.396508 23 17.597385 22.148986 19.322266 20.736328 L 25.292969 26.707031 A 1.0001 1.0001 0 1 0 26.707031 25.292969 L 20.736328 19.322266 C 22.148986 17.597385 23 15.396508 23 13 C 23 7.4889971 18.511003 3 13 3 z M 13 5 C 17.430123 5 21 8.5698774 21 13 C 21 17.430123 17.430123 21 13 21 C 8.5698774 21 5 17.430123 5 13 C 5 8.5698774 8.5698774 5 13 5 z"></path></svg>-->
+                    <i class="fa fa-search" aria-hidden="true" style="font-size: 20px; color: white;"></i>
+                    
+                </div>
             </div>
         </nav>
     </header>
+
+    <section class="intro container">
+        <div class="intro__image-container">
+            <img class="intro__image" src="/img/home-page-intro.png" alt="Intro photo">
+        </div>
+        <div class="intro__text-buttons-container">
+            <h1 class="intro__title">Поширюй, Співпрацюй & Втілюй</h1>
+            <p class="intro__text">
+                Поширюйте ідеї та проблеми для вирішення.<br>
+                Співпрацюйте зі спеціалістами, щоб досягти мети разом.<br>
+                Втілюйте свої цілі в життя за допомогою нашої платформи.<br>
+            </p>
+            <div class="intro_buttons">
+                <div class="intro__button-try-now">
+                    <button class="red-button" role="button">Спробувати зараз</button>
+                </div>
+                <div class="intro__button-learn-more">
+                    <button class="white-button" role="button">Дізнатись більше</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="devider"></div>
+    
 </body>
 </html>

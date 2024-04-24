@@ -1,0 +1,117 @@
+@import url(global.css);
+.intro {
+    font-family: "Noto Sans", sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+.intro__image-container{
+    margin: 35px 50px 35px 35px;
+}
+.intro__image{
+    width: 500px;
+    height: 600px; 
+    object-fit: cover;
+}
+
+.intro__text-buttons-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.intro__title{
+    font-family:inherit;
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+.intro__text {
+    font-size: 16px;
+    line-height: 1.7;
+    padding: 5px 15px 17px 0;
+
+}
+
+.intro_buttons {
+    display: flex;
+    flex-direction: row;
+}
+.intro__button-try-now {
+    margin-right: 30px;
+}
+
+.red-button {
+    align-items: center;
+    background-color: var(--button-maroon-color);
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: var(--text-color-white);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: normal;
+    justify-content: center;
+    /*line-height: 20px;*/
+    max-width: 460px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+}
+.red-button:hover,
+.red-button:focus { 
+  background-color: var(--header-first-shade);
+}
+
+.white-button {
+    align-items: center;
+    background-color: var(--button-white-color);
+    border-width: 3px;
+    border-style: solid;
+    border-color: var(--button-maroon-color);
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: var(--text-color-black);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: normal;
+    justify-content: center;
+    /*line-height: 20px;*/
+    max-width: 460px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+  }
+  .white-button:hover,
+  .white-button:focus { 
+    background-color: var(--grey);
+  }
+
+  .devider {
+    margin: 30px 90px 50px 90px;
+    background-color: var(--devider-maroon-color);
+    max-width: 1400px;
+    height: 3px;
+  }
