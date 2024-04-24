@@ -6,8 +6,10 @@
     <title>Home page</title>
     <!--<link rel="icon" type="image/x-icon" href="img/favicon.ico"> -->
 	<link rel="stylesheet" type="text/css" href="home.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/global.css"/>
     <link rel="stylesheet" type="text/css" href="/css/header.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/buttons.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
     <header class="header">
@@ -68,6 +70,53 @@
         </div>
     </section>
     <div class="devider"></div>
-    
+    <section class="categories container">
+        <h2 class="categories__title">Категорії</h2>
+        <div class="categories__carousel container">
+            <button class="categories__carousel-btn-prev">
+                <i class="fa-thin fa-chevron-left" style="color: #000000;"></i>
+            </button>
+            <div>
+                <div class="categories__carousel-slide container"></div>
+                <div class="categories__carousel-indicators"></div>
+            </div>
+            <button class="categories__carousel-btn-next">
+                <i class="fa-thin fa-chevron-left"></i>
+            </button>
+        </div>   
+    </section>
+    <section class="helpful-tips">
+        <div class="helpful-tips__image-container">
+            <img class="helpful-tips__image" src="/img/helpful-tips-home-page.png" alt="Helpful tips">
+        </div>
+    </section>
+    <section class="testimonials container">
+        <div class="testimonials__left-container">
+            <div class="testimonials__decorive-title"></div>
+            <div class="testimonials__main-title"></div>
+            <div class="testimonials__title-description"></div>
+            <div class="testimonials__containers">
+                <div class="testimonials__photo-container"></div>
+                <div class="testimonials__name-text-container">
+                    <div class="testimonials__name-container"></div>
+                    <div class="testimonials__text-container"></div>
+                </div>
+                <div class="testimonials__photo-container"></div>
+                <div class="testimonials__name-text-container">
+                    <div class="testimonials__name-container"></div>
+                    <div class="testimonials__text-container"></div>
+                </div>
+                <div class="testimonials__photo-container"></div>
+                <div class="testimonials__name-text-container">
+                    <div class="testimonials__name-container"></div>
+                    <div class="testimonials__text-container"></div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonials__right-container">
+
+        </div>
+    </section>
+    <script src="/js/categories-carousel.js"></script>
 </body>
 </html>
