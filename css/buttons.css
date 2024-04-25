@@ -64,4 +64,5 @@
 .white-button:hover,
 .white-button:focus { 
     background-color: var(--grey);
+    border-color: var(--button-maroon-shade-color);
 }

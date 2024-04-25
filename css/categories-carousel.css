@@ -58,6 +58,10 @@
     background-clip: padding-box;
 }
 
+.categories__carousel-slide p:hover{
+    background-color: rgba(116, 116, 116, 0.7);
+}
+
 .categories__carousel-indicators {
     padding: 15px 0;
     display: flex;

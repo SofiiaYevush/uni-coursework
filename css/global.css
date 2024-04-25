@@ -11,11 +11,13 @@
     --text-color-white: #ffffff;
     --text-color-maroon: #800000;
     --text-color-grey: #747474;
+    --text-color-light-grey: #dddddd;
     --text-color-maroon-shade: #f76f6b;
     --background-color: #ffffff;
     --button-white-color: #ffffff;
-    --header-maroon-color: #800000;
     --button-maroon-color: #800000;
+    --button-maroon-shade-color: #f76f6b;
+    --header-maroon-color: #800000;
     --devider-maroon-color: #800000;
     --devider-maroon-shade-color: #f76f6b;
     --main-maroon-color: #800000;

@@ -19,14 +19,18 @@
   float: left;  
 }
 
-.menu__item {
+.menu__item{
   color: var(--text-color-white);
   text-decoration: none;
   display: flex;
   text-align: center;
-  
   padding: 21px 17px;
   float: left;
+}
+
+.menu__item:hover {
+  color: var(--text-color-light-grey);
+  text-decoration: none;
 }
 
 .header__menu-sign-items{
@@ -112,7 +116,7 @@
   min-width: 100px;
   white-space: normal;
   text-align: center;
-  padding: 14px 12px 14px;
+  padding: 14px 10px 14px;
   /*padding: 16px 14px 18px;*/
   color: var(--text-color-black);
   background-color: var(--button-white-color);
