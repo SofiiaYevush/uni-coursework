@@ -1,9 +1,9 @@
 const slides = [
-    '<div><img src="/img/categories-carousel/cleaning-category.jpg" id="carousel-img-cleaning" alt="Cleaning"><p>Cleaning</p></div>',
-    '<div><img src="/img/categories-carousel/moving-category.jpg" id="carousel-img-moving" alt="Moving"><p>Moving</p></div>',
-    '<div><img src="/img/categories-carousel/repair-house-category.jpg" id="carousel-img-repair-house" alt="House repair"><p>House repair</p></div>',
-    '<div><img src="/img/categories-carousel/woodworking-category.jpg" id="carousel-img-woodworking" alt="Woodworking"><p>Woodworking</p></div>',
-    '<div><img src="/img/categories-carousel/repair-of-devices-category.jpg" id="carousel-img-repair-of-devices" alt="Repair of devices"><p>Repair of devices</p></div>'
+    '<div><img src="/img/categories-carousel/cleaning-category.jpg" id="carousel-img-cleaning" alt="Cleaning"><p>Клінінг</p></div>',
+    '<div><img src="/img/categories-carousel/moving-category.jpg" id="carousel-img-moving" alt="Moving"><p>Перевезення</p></div>',
+    '<div><img src="/img/categories-carousel/repair-house-category.jpg" id="carousel-img-repair-house" alt="House repair"><p>Ремонт будинку</p></div>',
+    '<div><img src="/img/categories-carousel/woodworking-category.jpg" id="carousel-img-woodworking" alt="Woodworking"><p>Роботи з деревом</p></div>',
+    '<div><img src="/img/categories-carousel/repair-of-devices-category.jpg" id="carousel-img-repair-of-devices" alt="Repair of devices"><p>Ремонт техніки</p></div>'
 ];
 
 let currentSlide = 0;
