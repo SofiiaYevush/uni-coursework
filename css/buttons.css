@@ -29,6 +29,7 @@
 .red-button:hover,
 .red-button:focus { 
   background-color: var(--header-first-shade);
+  transition: background-color 0.5s;
 }
 
 .white-button {
@@ -65,4 +66,45 @@
 .white-button:focus { 
     background-color: var(--grey);
     border-color: var(--button-maroon-shade-color);
+    transition: background-color 0.5s;
 }
+
+.red-with-white-border-button {
+    align-items: center;
+    background-color: var(--button-maroon-color);
+    border-width: 3px;
+    border-style: solid;
+    border-color: var(--button-white-color);
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: var(--text-color-white);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: normal;
+    justify-content: center;
+    /*line-height: 20px;*/
+    max-width: 460px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+}
+.red-with-white-border-button:hover,
+.red-with-white-border-button:focus { 
+    background-color: var(--grey);
+    border-color: var(--button-white-color);
+    color: var(--text-color-black);
+    transition: background-color 0.5s;
+}
+
+
