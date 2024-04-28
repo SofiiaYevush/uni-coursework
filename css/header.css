@@ -1,22 +1,37 @@
 @import url(global.css);
-.header {
+header {
   background-color: var(--header-maroon-color);
-  padding: 5px;
-  font-family: "Comfortaa", sans-serif;
-  font-size: 16px;
-  letter-spacing: 1px;
 }
 
 .header__nav {
   display: flex;
-  text-align: center;
+  flex-direction: row;
   justify-content: space-between;
-  font-family: inherit;
-  font-size: 16px;
+  padding: 10px 40px;
+}
+
+.header__left-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.header__logo {
+  display: flex;
+  justify-content: center;
+  align-items:start;
+}
+
+.header__logo img {
+  width: 60px;
+  height: 60px; 
+  object-fit: cover;
 }
 
 .header__menu {
-  float: left;  
+  display: flex;
+  justify-content: center;
+  align-items:start;
+  padding-left: 15px;
 }
 
 .menu__item{
@@ -25,7 +40,8 @@
   display: flex;
   text-align: center;
   padding: 21px 17px;
-  float: left;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 16px;
 }
 
 .menu__item:hover {
@@ -33,10 +49,6 @@
   text-decoration: none;
 }
 
-.header__menu-sign-items{
-  float: right;  
-  margin-right: 16px;
-}
 .menu__item-dropdown {
   display: flex;
   text-align: center;
@@ -90,11 +102,17 @@
   display: block;
 }
 
+.header__right-container {
+  display: flex;
+  justify-content: center;
+  justify-items: end;
+}
+
 .menu__signup-btn{
   border: none;
   background-color: transparent;
-  font-family: inherit;
-  font-size: inherit;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 16px;
   display: inline-block;
   padding: 9px 17px;
 }
@@ -131,8 +149,9 @@
 }
 
 .header__search-icon {
-  display: inline-block;
-  margin: 15px;
+  display: flex;
+  align-items: center;
+
 }
 .header__search-icon:hover {
   outline: none;
