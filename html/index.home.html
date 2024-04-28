@@ -13,35 +13,40 @@
     <link rel="stylesheet" type="text/css" href="/css/footer.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <script src="https://unpkg.com/htmx.org@1.9.11" integrity="sha384-0gxUXCCR8yv9FM2b+U3FDbsKthCI66oH5IA9fHppQq9DDMHuMauqq1ZHBpJxQ0J0" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </head>
 <body>
     <header class="header">
         <nav class="header__nav">
-            <div class="header__logo">
-                <!-- -->
-            </div>
-            <div class="header__menu">
-                <a href="/html/index.home.html" class="menu__item">Головна</a>
-                <a href="#" class="menu__item">Про нас</a>
-                <a href="#" class="menu__item">Спеціалісти</a>
-                <div class="menu__item-dropdown">
-                    <button class="menu__dropdown-btn">Категорії 
-                        <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                        <a href="#">Link 3</a>
-                        <a href="#">Link 3</a>
-                        <a href="#">Link 3</a>
-                        <a href="#">Link 3</a>
-                    </div>   
+            <div class="header__left-container">
+                <div class="header__logo">
+                    <img src="/img/home-page-intro.png" alt="Logo">
+                </div>
+                <div class="header__menu">
+                    <a href="/html/index.home.html" class="menu__item">Головна</a>
+                    <a href="#" class="menu__item">Про нас</a>
+                    <a href="#" class="menu__item">Спеціалісти</a>
+                    <div class="menu__item-dropdown">
+                        <button class="menu__dropdown-btn">Категорії 
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                            <a href="#">Link 3</a>
+                            <a href="#">Link 3</a>
+                            <a href="#">Link 3</a>
+                            <a href="#">Link 3</a>
+                        </div>   
+                    </div>
                 </div>
             </div>
-            <div class="header__menu-sign-items">                
+            <div class="header__right-container">                
                 <a href="#" class="menu__item">Зареєструватись</a>
                 <button class="menu__signup-btn"><a href="#" class="signup-btn">Увійти</a></button>
                 <div class="header__search-icon">
@@ -119,23 +124,23 @@
     </section>
     
     <section class="analysis container">
-            <div class="analysis__title">
-                <h2>Текст текст текст текст текст текс</h2>
+        <div class="analysis__title">
+            <h2>Текст текст текст текст текст текс</h2>
+        </div>
+        <div class="analysis__text-container">
+            <div class="analysis__statement">
+                <div class="analysis__statement-numbers"><p>300,000+</p></div>
+                <div class="analysis__statement-numbers-description"><p>Текст текст ттттттт</p></div>
             </div>
-            <div class="analysis__text-container">
-                <div class="analysis__statement">
-                    <div class="analysis__statement-numbers"><p>300,000+</p></div>
-                    <div class="analysis__statement-numbers-description"><p>Текст текст ттттттт</p></div>
-                </div>
-                <div class="analysis__statement">
-                    <div class="analysis__statement-numbers"><p>300,000+</p></div>
-                    <div class="analysis__statement-numbers-description"><p>Текст текст ттттттт</p></div>
-                </div>
-                <div class="analysis__statement">
-                    <div class="analysis__statement-numbers"><p>300,000+</p></div>
-                    <div class="analysis__statement-numbers-description"><p>Текст hsdbvcjh sshfdvb hbdjh текст</p></div>
-                </div>
+            <div class="analysis__statement">
+                <div class="analysis__statement-numbers"><p>300,000+</p></div>
+                <div class="analysis__statement-numbers-description"><p>Текст текст ттттттт</p></div>
             </div>
+            <div class="analysis__statement">
+                <div class="analysis__statement-numbers"><p>300,000+</p></div>
+                <div class="analysis__statement-numbers-description"><p>Текст hsdbvcjh sshfdvb hbdjh текст</p></div>
+            </div>
+        </div>
     </section>
 
     <section class="ready-to-start">
@@ -152,28 +157,59 @@
     </section>
 
     <section class="acordion-questions container">
-        <div class="accordion-item">
-            <div class="accordion-header">Питання 1: Як зареєструватися на сайті і почати використовувати його?</div>
-            <div class="accordion-content">
-              <p>Відповідь: Для реєстрації на нашому сайті вам потрібно натиснути кнопку "Реєстрація" на головній сторінці і ввести необхідну інформацію. Після цього ви зможете створити профіль та розпочати використання наших послуг.</p>
+        <div class="acordion-questions__title">
+            <h2>Поширені запитання:</h2>
+        </div>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Як зареєструватися на сайті і почати використовувати його?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Для реєстрації на нашому сайті вам потрібно натиснути кнопку "Реєстрація" на головній сторінці і ввести необхідну інформацію. Після цього ви зможете створити профіль та розпочати використання наших послуг.</div>
+              </div>
             </div>
-          </div>
-          <div class="accordion-item">
-            <div class="accordion-header">Питання 2: Як створити завдання для виконання?</div>
-            <div class="accordion-content">
-              <p>Відповідь: Для створення завдання вам потрібно увійти в свій обліковий запис, перейти на сторінку "Створити завдання" і заповнити необхідну інформацію про завдання, включаючи опис, категорію та бюджет.</p>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Як створити завдання для виконання?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Для створення завдання вам потрібно увійти в свій обліковий запис, перейти на сторінку "Створити завдання" і заповнити необхідну інформацію про завдання, включаючи опис, категорію та бюджет.</div>
+              </div>
             </div>
-          </div>
-          <div class="accordion-item">
-            <div class="accordion-header">Питання 3: Як перевірити репутацію фахівців?</div>
-            <div class="accordion-content">
-              <p>Відповідь: Для пошуку відповідних фахівців ви можете перейти на сторінку "Спеціалісти", де ви зможете скористатися фільтрами пошуку та категоріями, щоб знайти фахівців, які відповідають вашим потребам.</p>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Як знайти відповідних фахівців для виконання завдань?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">На нашому сайті ви можете скористатися фільтрами пошуку та категоріями, щоб знайти фахівців, які відповідають вашим потребам. Ви також можете переглянути профілі фахівців та їхні відгуки.</div>
+              </div>
             </div>
-          </div>
-          <div class="accordion-item">
-            <div class="accordion-header">Питання 4: Як забезпечити безпеку та якість виконання завдань?</div>
-            <div class="accordion-content">
-              <p>Відповідь: Ми рекомендуємо користувачам встановлювати детальні умови угоди перед початком роботи, включаючи строк виконання, оплату та інші деталі. Також важливо вести зворотній зв'язок під час виконання завдання, щоб забезпечити високу якість роботи.</p>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                  Як перевірити репутацію та досвід фахівців?
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">На нашому сайті ви можете переглянути рейтинги та відгуки профілів фахівців, а також їхні портфоліо та раніше виконані завдання. Це допоможе вам оцінити їхню репутацію та досвід.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                  Як забезпечити безпеку та якість виконання завдань?
+                </button>
+              </h2>
+              <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Ми рекомендуємо користувачам встановлювати детальні умови угоди перед початком роботи, включаючи строк виконання, оплату та інші деталі. Також важливо вести зворотній зв'язок під час виконання завдання, щоб забезпечити високу якість роботи.</div>
+              </div>
             </div>
           </div>
     </section>
@@ -197,13 +233,10 @@
             <div class="footer__bottom-left-bar"><p>Створено<br>Софією Євуш</p></div>
             <div class="footer__bottom-right-bar"><p>ЛНУ імені<br>Івана Франка</p></div>
         </div>
-        
     </footer>
-
 
     <script src="/js/index.js"></script>
     <script src="/js/categories-carousel.js"></script>
     <script src="/js/testimonials-unregistered.js"></script>
-    <script src="/js/acordion-questions.js"></script>
 </body>
 </html>

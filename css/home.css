@@ -91,8 +91,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding-top: 65px;
-    max-height: 900px;
-    max-width: 1150px;
+    max-height: 1170px;
 }
 
 .testimonials__left-container {
@@ -206,4 +205,106 @@
     object-fit: cover;
     display: flex;
     justify-items: end;
+}
+
+.analysis {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-height: 700px;
+    padding-top: 220px;
+    margin-bottom: 220px;
+    flex-direction: column;
+}
+
+.analysis__title {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 40px;
+    color: var(--text-color-black);
+    padding-bottom: 40px;
+}
+
+.analysis__text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.analysis__statement {
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;
+}
+
+.analysis__statement-numbers {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--text-color-black);
+    padding-bottom: 20px;
+    vertical-align: top;
+}
+
+.analysis__statement-numbers-description {
+    max-width: 250px;
+}
+
+.analysis__statement-numbers-description p {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 16px;
+    color: var(--text-color-black);
+    word-wrap: break-word;
+}
+
+.ready-to-start {
+    margin-top: 220px;
+    background-color: var(--main-maroon-color);
+    max-height: 800px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ready-to-start__image-container {
+    display: flex;
+    justify-content: start;
+}
+
+.ready-to-start__image-container img {
+    width: 800px;
+    height: 800px; 
+    object-fit: cover;
+    object-position:left;
+}
+
+.ready-to-start__text-button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+    padding-left: 40px;
+}
+
+.ready-to-start__title {
+    padding-bottom: 15px;
+}
+
+.ready-to-start__title h2 {
+    font-size: 40px;
+    font-family: "Comfortaa", sans-serif;
+    color: var(--text-color-white);
+}
+
+.ready-to-start__text {
+    padding: 5px 15px 17px 0;
+    max-width: 650px;
+}
+
+.ready-to-start__text p {
+    font-size: 16px;
+    font-family: "Comfortaa", sans-serif;
+    color: var(--text-color-white);
+    line-height: 1.7;
+    word-wrap: break-word;
 }
