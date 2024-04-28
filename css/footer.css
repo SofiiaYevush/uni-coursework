@@ -1,0 +1,77 @@
+footer {
+    background-color: var(--footer-maroon-color);
+    max-height: 450px;
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+}
+
+.footer__top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px 30px;
+}
+
+.footer__logo {
+    display: flex;
+    justify-content: center;
+    align-items:start;
+}
+
+.footer__logo img {
+    width: 60px;
+    height: 60px; 
+    object-fit: cover;
+}
+
+.footer__nav {
+    display: flex;
+    align-items: center;
+}
+
+.footer__menu { 
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__menu-item {
+    font-size: 16px;
+    font-family: "Comfortaa", sans-serif;
+    color: var(--text-color-white);
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.footer__menu-item:hover {
+    color: var(--text-color-light-grey);
+    text-decoration: none;
+}
+
+.footer__devider {
+    margin: 10px 30px;
+    background-color: var(--devider-white-color);
+    max-width: 1800px;
+    height: 1px;
+}
+
+.footer__bottom-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4px 30px;
+}
+
+.footer__bottom-left-bar p{
+    font-size: 16px;
+    font-family: "Comfortaa", sans-serif;
+    color: var(--text-color-white);
+}
+
+.footer__bottom-right-bar p{
+    font-size: 16px;
+    font-family: "Comfortaa", sans-serif;
+    color: var(--text-color-white); 
+    display: flex;
+    text-align: right;
+}
