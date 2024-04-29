@@ -1,0 +1,61 @@
+@import url(/css/global.css);
+@import url(/css/header.css);
+@import url(/css/buttons.css);
+@import url(/css/categories-carousel.css);
+@import url(/css/home.css);
+@import url(/css/footer.css);
+
+.sign-up {
+    padding: 150px 0 300px 0;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sign-up__title {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 40px;
+}
+
+.sign-up__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 18px;
+}
+
+.sign-up__text p {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 14px;
+    padding-right: 6px;
+    color: var(--text-color-black);
+}
+
+.sign-up__text a{
+    color: var(--text-color-black);
+}
+
+.sign-up__text a:hover{
+    font-weight: bold;
+    transition: font-weight 0.3s;
+}
+
+.sign-up__buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 70px;
+}
+
+.sign-up__become-client {
+    padding-left: 50px;
+}
+
+.white-button {
+    width: 210px;
+    font-family: "Comfortaa", sans-serif;
+}

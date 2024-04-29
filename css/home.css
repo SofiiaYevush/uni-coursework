@@ -2,6 +2,8 @@
 @import url(/css/header.css);
 @import url(/css/buttons.css);
 @import url(/css/categories-carousel.css);
+@import url(/css/acordion-questions.css);
+@import url(/css/footer.css);
 .intro {
     font-family: "Comfortaa", sans-serif;
     display: flex;
@@ -364,4 +366,18 @@
     color: var(--text-color-white);
     line-height: 1.7;
     word-wrap: break-word;
+}
+
+.red-with-white-border-button a {
+    font-size: 16px;
+    font-family: "Comfortaa", sans-serif;
+    text-decoration: none;
+    color: var(--text-color-white);
+}
+
+.red-with-white-border-button a:hover {
+    font-size: 16px;
+    font-family: "Comfortaa", sans-serif;
+    text-decoration: none;
+    color: var(--text-color-black);
 }
