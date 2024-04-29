@@ -151,9 +151,21 @@ header {
 .header__search-icon {
   display: flex;
   align-items: center;
-
+  justify-items: center;
+  padding-left: 8px;
 }
-.header__search-icon:hover {
+
+.header__search-icon img {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  width: 40px;
+  height: 40px; 
+  object-fit:contain;
+}
+
+
+.header__search-icon img:hover {
   outline: none;
   cursor: pointer;
 }
