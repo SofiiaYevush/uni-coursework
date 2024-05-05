@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" type="text/css" href="/css/global.css"/>
+	<link rel="stylesheet" type="text/css" href="/css/about-us.css"/>
+    <script src="https://unpkg.com/htmx.org@1.9.11" integrity="sha384-0gxUXCCR8yv9FM2b+U3FDbsKthCI66oH5IA9fHppQq9DDMHuMauqq1ZHBpJxQ0J0" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <div class="header__left-container">
+                <div class="header__logo">
+                    <img src="/img/home-page-intro.png" alt="Logo">
+                </div>
+                <div class="header__menu">
+                    <a href="/html/index.home.html" class="menu__item">Головна</a>
+                    <a href="/html/index.about-us.html"  target="_blank" class="menu__item">Про нас</a>
+                    <a href="#"  target="_blank" class="menu__item">Спеціалісти</a>
+                    <div class="menu__item-dropdown">
+                        <button class="menu__dropdown-btn">Категорії 
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                            <a href="#">Link 3</a>
+                            <a href="#">Link 3</a>
+                            <a href="#">Link 3</a>
+                            <a href="#">Link 3</a>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+            <div class="header__right-container">                
+                <a href="/html/index.sign-up.html" class="menu__item">Зареєструватись</a>
+                <button class="menu__sign-btn"><a href="/html/index.sign-in.html" class="sign-btn">Увійти</a></button>
+                <div class="header__search-icon">
+                    <img src="/img/icons/magnifying-glass.png" alt="Magnifying glass">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="about-us__home-link">
+        <a href="/html/index.home.html">Головна</a>
+        <img src="/img/icons/left-arrow.png">
+        <p>Про нас</p>
+    </div>
+
+    <section class="about-us__heading container">
+        <div class="about-us__heading-logo">
+            <img src="/img/home-page-intro.png" alt="Logo">
+        </div>
+        <div class="about-us__heading-text-container">
+            <p><i><b>[НАЗВА]</b> покликана забезпечити зручний і ефективний спосіб пошуку фрілансерів для різних завдань і проектів. Це дозволяє користувачам швидко знаходити експертів у різних галузях, публікувати їхні завдання та отримувати якісні результати.</i></p>
+        </div> 
+    </section>
+
+    <div class="devider"></div>
+
+    <section class="about-us__main-containers">
+        <div class="about-us__main-one-container">
+            <img src="/img/about-us/about-us-1.jpg" alt="">
+            <div class="about-us__main-one-container-title-text">
+                <h2>Неперервна співпраця</h2>
+                <p>Відчуйте ефективність нашої платформи на власному досвіді, де завдання швидко узгоджуються з кваліфікованими професіоналами, що сприяє безперебійній співпраці та успішному виконанню проектів.</p>
+            </div>
+        </div>
+        <div class="about-us__main-one-container">
+            <div class="about-us__main-one-container-title-text">
+                <h2>Зручність використання</h2>
+                <p>Скористайтес різними категоріями для пошуку завдань відповідно до ваших умінь.</p>
+            </div>
+            <img src="/img/about-us/about-us-2.png" alt="">
+        </div>
+        <div class="about-us__main-one-container">
+            <img src="/img/about-us/about-us-3.jpg" alt="">
+            <div class="about-us__main-one-container-title-text">
+                <h2>Швидкий пошук рішень</h2>
+                <p>Користувачі можуть без особливих зусиль створювати детальні оголошення про роботу, вказуючи різні вимоги, і зв’язуватися з різними фахівцями для ефективного задоволення своїх потреб.</p>
+            </div>
+        </div>
+        <div class="about-us__main-one-container">
+            <div class="about-us__main-one-container-title-text">
+                <h2>Безпечна співпраця</h2>
+                <p>Переглядайте профілі спеціалістів безпосередньо на нашій платформі та приймайте обґрунтовані рішення при виборі працівників.</p>
+            </div>
+            <img src="/img/about-us/about-us-4.jpg" alt="">
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer__top-container">
+            <div class="footer__logo">
+                <img src="/img/home-page-intro.png" alt="Logo">
+            </div>
+            <nav class="footer__nav">
+                <div class="footer__menu">
+                    <a href="/html/index.home.html" class="footer__menu-item">Головна</a>
+                    <a href="#" class="footer__menu-item">Про нас</a>
+                    <a href="#" class="footer__menu-item">Спеціалісти</a>
+                    <a href="#" class="footer__menu-item">Категорії</a>
+                </div>
+            </nav>
+        </div>
+        <div class="footer__devider"></div>
+        <div class="footer__bottom-container">
+            <div class="footer__bottom-left-bar"><p>Створено<br>Софією Євуш</p></div>
+            <div class="footer__bottom-right-bar"><p>ЛНУ імені<br>Івана Франка</p></div>
+        </div>
+    </footer>
+</body>
+</html>
