@@ -1,0 +1,107 @@
+@import url(/css/global.css);
+@import url(/css/header.css);
+@import url(/css/buttons.css);
+@import url(/css/categories-carousel.css);
+@import url(/css/home.css);
+@import url(/css/footer.css);
+
+.sign-in__back-link {
+    padding: 30px 50px;
+}
+
+.sign-in__back-link a {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 16px;
+    color: var(--text-color-black);
+    text-decoration: none;
+}
+
+.sign-in__back-link a:hover {
+    text-decoration: underline;
+    transition: font-weight 0.3s;
+}
+
+.sign-in {
+    margin-top: 60px;
+    margin-bottom: 150px;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sign-in__title {
+    font-size: 40px;
+    font-family: "Comfortaa", sans-serif;
+    color: var(--text-color-black);
+    margin-bottom: 50px;
+}
+
+.sign-in__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-in__form-title-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-in__form-title {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 16px;
+    color: var(--text-color-black);
+    padding: 20px 0 5px 3px;
+}
+
+.sign-in__form-field {
+    border-radius: 100px;
+    border: 2px solid var(--border-light-grey-color);
+    width: 680px;
+    height: 35px;
+}
+
+.sign-in__form-submit-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.white-button {
+    width: 210px;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.sign-in__devider {
+    margin: 50px auto;
+    background-color: var(--devider-maroon-color);
+    width: 900px;
+    height: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+.sign-in__create-account {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.sign-in__create-account p {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 16px;
+    color: var(--text-color-black);
+}
+
+.sign-in__create-account a {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 16px;
+    color: var(--text-color-black);
+    text-decoration: none;
+}
+.sign-in__create-account a:hover {
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+}
