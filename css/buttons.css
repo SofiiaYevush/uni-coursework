@@ -4,7 +4,6 @@
     border: 0;
     border-radius: 100px;
     box-sizing: border-box;
-    color: var(--text-color-white);
     cursor: pointer;
     display: inline-flex;
     font-family: "Comfortaa", sans-serif;
@@ -26,6 +25,10 @@
     -webkit-user-select: none;
     vertical-align: middle;
 }
+.red-button a {
+    color: var(--text-color-white);
+    text-decoration: none;
+}
 .red-button:hover,
 .red-button:focus { 
   background-color: var(--header-first-shade);
@@ -40,7 +43,6 @@
     border-color: var(--button-maroon-color);
     border-radius: 100px;
     box-sizing: border-box;
-    color: var(--text-color-black);
     cursor: pointer;
     display: inline-flex;
     font-family: inherit;
@@ -61,6 +63,11 @@
     user-select: none;
     -webkit-user-select: none;
     vertical-align: middle;
+}
+
+.white-button a{
+    color: var(--text-color-black);
+    text-decoration: none;
 }
 .white-button:hover,
 .white-button:focus { 
@@ -77,7 +84,6 @@
     border-color: var(--button-white-color);
     border-radius: 100px;
     box-sizing: border-box;
-    color: var(--text-color-white);
     cursor: pointer;
     display: inline-flex;
     font-family: inherit;
@@ -99,12 +105,23 @@
     -webkit-user-select: none;
     vertical-align: middle;
 }
+
+.red-with-white-border-button a{
+    color: var(--text-color-white);
+    text-decoration: none;
+}
+
 .red-with-white-border-button:hover,
 .red-with-white-border-button:focus { 
     background-color: var(--grey);
     border-color: var(--button-white-color);
-    color: var(--text-color-black);
     transition: background-color 0.5s;
 }
+
+.red-with-white-border-button a:hover,
+.red-with-white-border-button a:focus { 
+    color: var(--text-color-black);
+}
+
 
 
