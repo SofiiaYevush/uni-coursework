@@ -74,27 +74,3 @@
     justify-content: center;
     align-items: center;
 }
-
-.sign-up-tasker__user-icon {
-    width: 80px;
-    height: 80px; 
-    object-fit: cover;
-    position: relative;
-    z-index: 1;
-}
-
-.sign-up-tasker__add-icon {
-    width: 20px;
-    height: 20px; 
-    object-fit: cover;
-    position: absolute;
-    z-index: 2;
-    margin: 58px 0 0 56px;
-    cursor: pointer;
-}
-
-
-.sign-up-tasker__form {
-    display: flex;
-    flex-direction: column;
-}
