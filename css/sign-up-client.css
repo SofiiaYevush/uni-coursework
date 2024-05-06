@@ -1,0 +1,77 @@
+@import url(/css/global.css);
+@import url(/css/header.css);
+@import url(/css/buttons.css);
+@import url(/css/categories-carousel.css);
+@import url(/css/home.css);
+@import url(/css/footer.css);
+@import url(/css/forms.css);
+
+.sign-up-client__back-link {
+    padding: 30px 50px;
+}
+
+.sign-up-client__back-link a {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 16px;
+    color: var(--text-color-black);
+    text-decoration: none;
+}
+
+.sign-up-client__back-link a:hover {
+    text-decoration: underline;
+    transition: font-weight 0.3s;
+}
+
+.sign-up-client {
+    margin-top: 60px;
+    margin-bottom: 150px;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sign-up-client__title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.sign-up-client__title-container h2{
+    font-size: 30px;
+    font-family: "Comfortaa", sans-serif;
+    color: var(--text-color-black);
+}
+
+.sign-up-client__title-text p {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 14px;
+    padding-right: 6px;
+    color: var(--text-color-black);
+}
+
+.sign-up-client__title-text a{
+    color: var(--text-color-black);
+}
+
+.sign-up-client__title-text a:hover{
+    font-weight: bold;
+    transition: font-weight 0.3s;
+}
+
+
+.sign-up-client__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-client__form-photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

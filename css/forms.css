@@ -1,5 +1,24 @@
 @import url(/css/global.css);  
  
+
+.sign-up__user-icon {
+    width: 80px;
+    height: 80px; 
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.sign-up__add-icon {
+    width: 20px;
+    height: 20px; 
+    object-fit: cover;
+    position: absolute;
+    z-index: 2;
+    margin: 58px 0 0 56px;
+    cursor: pointer;
+}
+
 .required {
     color: var(--main-maroon-color);
     font-size: 22px;
@@ -35,6 +54,19 @@
     height: 150px;
     border-radius: 20px;
     vertical-align: top;
+}
+
+.drop-down-field {
+    width:210px;
+}
+
+select option:checked {
+    display: none;
+}
+select::before {
+    content: var(--placeholder);
+    color: red;
+    font-size: 8px;
 }
 
 .form-submit-button {
