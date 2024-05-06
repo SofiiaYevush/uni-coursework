@@ -31,6 +31,12 @@
     transition: border 0.25s;
 }
 
+.experience-field {
+    height: 150px;
+    border-radius: 20px;
+    vertical-align: top;
+}
+
 .form-submit-button {
     display: flex;
     justify-content: center;
