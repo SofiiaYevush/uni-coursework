@@ -1,0 +1,100 @@
+@import url(/css/global.css);
+@import url(/css/header.css);
+@import url(/css/buttons.css);
+@import url(/css/categories-carousel.css);
+@import url(/css/home.css);
+@import url(/css/footer.css);
+@import url(/css/forms.css);
+
+.sign-up-tasker__back-link {
+    padding: 30px 50px;
+}
+
+.sign-up-tasker__back-link a {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 16px;
+    color: var(--text-color-black);
+    text-decoration: none;
+}
+
+.sign-up-tasker__back-link a:hover {
+    text-decoration: underline;
+    transition: font-weight 0.3s;
+}
+
+.sign-up-tasker {
+    margin-top: 60px;
+    margin-bottom: 150px;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sign-up-tasker__title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.sign-up-tasker__title-container h2{
+    font-size: 30px;
+    font-family: "Comfortaa", sans-serif;
+    color: var(--text-color-black);
+}
+
+.sign-up-tasker__title-text p {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 14px;
+    padding-right: 6px;
+    color: var(--text-color-black);
+}
+
+.sign-up-tasker__title-text a{
+    color: var(--text-color-black);
+}
+
+.sign-up-tasker__title-text a:hover{
+    font-weight: bold;
+    transition: font-weight 0.3s;
+}
+
+
+.sign-up-tasker__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-tasker__form-photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-tasker__user-icon {
+    width: 80px;
+    height: 80px; 
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.sign-up-tasker__add-icon {
+    width: 20px;
+    height: 20px; 
+    object-fit: cover;
+    position: absolute;
+    z-index: 2;
+    margin: 58px 0 0 56px;
+    cursor: pointer;
+}
+
+
+.sign-up-tasker__form {
+    display: flex;
+    flex-direction: column;
+}

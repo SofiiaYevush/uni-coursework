@@ -1,0 +1,45 @@
+@import url(/css/global.css);  
+ 
+.required {
+    color: var(--main-maroon-color);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.form-title-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-title {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 16px;
+    color: var(--text-color-black);
+    padding: 20px 0 5px 3px;
+}
+
+.form-field {
+    border-radius: 100px;
+    border: 2px solid var(--border-light-grey-color);
+    width: 680px;
+    height: 35px;
+    padding: 12px; 
+}
+
+.form-field:hover {
+    border: 2px solid var(--border-grey-color);
+    transition: border 0.25s;
+}
+
+.form-submit-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.white-button {
+    width: 210px;
+    font-family: "Comfortaa", sans-serif;
+}
+  
+
