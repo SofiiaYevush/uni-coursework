@@ -4,6 +4,7 @@
 @import url(/css/categories-carousel.css);
 @import url(/css/home.css);
 @import url(/css/footer.css);
+@import url(/css/forms.css);
 
 .sign-in__back-link {
     padding: 30px 50px;
@@ -43,38 +44,8 @@
     flex-direction: column;
 }
 
-.sign-in__form-title-field {
-    display: flex;
-    flex-direction: column;
-}
-
-.sign-in__form-title {
-    font-family: "Comfortaa", sans-serif;
-    font-size: 16px;
-    color: var(--text-color-black);
-    padding: 20px 0 5px 3px;
-}
-
-.sign-in__form-field {
-    border-radius: 100px;
-    border: 2px solid var(--border-light-grey-color);
-    width: 680px;
-    height: 35px;
-}
-
-.sign-in__form-submit-button {
-    display: flex;
-    justify-content: center;
-    margin-top: 60px;
-}
-
-.white-button {
-    width: 210px;
-    font-family: "Comfortaa", sans-serif;
-}
-
 .sign-in__devider {
-    margin: 50px auto;
+    margin: 45px auto;
     background-color: var(--devider-maroon-color);
     width: 900px;
     height: 3px;

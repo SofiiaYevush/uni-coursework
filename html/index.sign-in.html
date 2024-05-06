@@ -53,15 +53,15 @@
     <section class="sign-in container">
         <h2 class="sign-in__title">Увійти</h2>
         <form action="" method="get" class="sign-in__form">
-            <div class="sign-in__form-title-field">
-              <label class="sign-in__form-title" for="name">Електронна пошта: </label>
-              <input class="sign-in__form-field" type="text" name="name" id="name" required />
+            <div class="form-title-field">
+              <label class="form-title" for="email">Електронна пошта <span class="required">*</span></label>
+              <input class="form-field" type="email" name="email" id="email" placeholder="john.doe@gmail.com" required />
             </div>
-            <div class="sign-in__form-title-field">
-              <label class="sign-in__form-title" for="email">Пароль: </label>
-              <input class="sign-in__form-field" type="email" name="email" id="email" required />
+            <div class="form-title-field">
+              <label class="form-title" for="pwd">Пароль <span class="required">*</span></label>
+              <input class="form-field" type="password" name="pwd" id="pwd" required />
             </div>
-            <div class="sign-in__form-submit-button">
+            <div class="form-submit-button">
                 <input class="white-button" type="submit" value="Увійти" />
             </div>
           </form>
