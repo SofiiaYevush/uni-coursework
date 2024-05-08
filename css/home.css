@@ -28,6 +28,7 @@
 .intro__title{
     font-family:inherit;
     font-size: 40px;
+    font-weight: bold;
     padding-bottom: 15px;
 }
 
@@ -35,7 +36,6 @@
     font-size: 16px;
     line-height: 1.7;
     padding: 5px 15px 17px 0;
-
 }
 
 .intro_buttons {
@@ -200,7 +200,7 @@
     padding: 25px 0;
 }
 
-.testimonials__main-title {
+.testimonials__main-title-container h2 {
     font-family: "Comfortaa", sans-serif;
     font-size: 40px;
 }
