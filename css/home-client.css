@@ -1,0 +1,173 @@
+@import url(/css/global.css);
+@import url(/css/header.css);
+@import url(/css/buttons.css);
+@import url(/css/categories-carousel.css);
+@import url(/css/acordion-questions.css);
+@import url(/css/footer.css);
+@import url(/css/home.css);
+
+.home-client__intro {
+    font-family: "Comfortaa", sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+.home-client__intro-text-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding-left: 80px;
+}
+
+.home-client__intro-title {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.home-client__intro-text {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.red-button {
+    width: 170px;
+}
+
+.home-client__intro-image-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 35px 35px 35px 50px;
+}
+
+.home-client__intro-image-container img {
+    width: 500px;
+    height: 600px; 
+    object-fit: cover;
+}
+
+.devider {
+    margin: 50px 90px 50px 150px;
+    background-color: var(--devider-maroon-color);
+    max-width: 1400px;
+    height: 3px;
+}
+
+.home-client__second-intro {
+    font-family: "Comfortaa", sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+.home-client__second-intro-image-container{
+    margin: 35px 50px 35px 35px;
+}
+.home-client__second-intro-image-container img {
+    width: 500px;
+    height: 600px; 
+    object-fit: cover;
+}
+
+.home-client__second-intro-text-buttons-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home-client__second-intro-title {
+    font-family:inherit;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.home-client__second-intro-text {
+    font-size: 16px;
+    line-height: 1.7;
+    padding: 5px 15px 17px 0;
+}
+
+.home-client__testimonials {
+    background-color: var(--main-maroon-color);
+    max-height: 1600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 140px;
+}
+
+.home-client__testimonials-left-container-home-client{
+    max-width: 840px;
+    background-color: var(--background-color);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.home-client__testimonials-decorive-title-container {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0 0 35px;
+}
+
+.home-client__testimonials-mini-devider-left {
+    margin-right: 8px;
+    margin-top: 10px;
+    background-color: var(--devider-maroon-shade-color);
+    width: 25px;
+    height: 2px;
+}
+
+.home-client__testimonials-decorive-title {
+    color: var(--text-color-maroon-shade);
+    font-size: 20px;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: bold;
+}
+
+.home-client__testimonials-mini-devider-right {
+    margin-left: 8px;
+    margin-top: 10px;
+    background-color: var(--devider-maroon-shade-color);
+    width: 25px;
+    height: 2px;
+}
+
+.home-client__testimonials-main-title-container {
+    padding: 25px 0 25px 35px;
+}
+
+.home-client__testimonials-main-title-container h2 {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 40px;
+}
+
+.home-client__testimonials-title-description {
+    max-width: 650px;
+    padding-bottom: 30px;
+    padding-left: 35px;
+}
+
+.home-client__testimonials-title-description p{
+    font-family: "Comfortaa", sans-serif;
+    font-size: 16px;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    line-height: 1.5;
+}
+
+.testimonials__container {
+    padding-left: 35px;
+}
+
+.home-client__testimonials-right-container img {
+    width: 500px;
+    height: 800px; 
+    object-fit: cover;
+}
+
+

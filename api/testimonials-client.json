@@ -1,0 +1,20 @@
+[
+    {
+       "id":1,
+       "name":"Інна Адамчук",
+       "text":"Дуже задоволена якістю послуги та відгуком виконавця. Вдало вибрала працівника клінінгу для свого будинку та результат перевершив усі очікування!",
+       "imageUrl":"/img/testimonials-home-unregistered/close-up-confident-adult-woman-posing.jpg"
+    },
+    {
+       "id":2,
+       "name":"Анна Сидоренко",
+       "text":"Прекрасна платформа для знаходження виконавців у сфері дизайну інтер'єрів. Знайшла тут відмінного дизайнера, який створив унікальний дизайн моєї квартири!",
+       "imageUrl":"/img/testimonials-home-unregistered/close-up-confident-adult-woman-posing.jpg"
+    },
+    {
+        "id":3,
+        "name":"Максим Писаренко",
+        "text":"Завдяки цій платформі знайшов відмінного фахівця для ремонту мого будинку. Робота виконана вчасно та на високому рівні. Рекомендую!",
+        "imageUrl":"/img/testimonials-home-unregistered/portrait-content-elegant-man.jpg"
+     }
+ ]
