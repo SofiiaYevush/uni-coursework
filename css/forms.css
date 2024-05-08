@@ -1,5 +1,5 @@
 @import url(/css/global.css);  
- 
+@import url(/css/buttons.css);  
 
 .sign-up__user-icon {
     width: 80px;
@@ -50,7 +50,17 @@
     transition: border 0.25s;
 }
 
-.experience-field {
+.form-select-dropdown {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 2px solid var(--border-light-grey-color);
+    height: 35px;
+    width: 200px;
+    border-radius: 100px;
+    padding-left: 12px; 
+}
+
+.high-field {
     height: 150px;
     border-radius: 20px;
     vertical-align: top;
@@ -80,4 +90,13 @@ select::before {
     font-family: "Comfortaa", sans-serif;
 }
   
+.form-three-dropdown {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
+.red-button {
+    color: var(--text-color-white);
+    font-family: "Comfortaa", sans-serif;
+}
