@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign up as Tasker</title>
+    <title>Зареєструватись як виконавець</title>
     <link rel="stylesheet" type="text/css" href="/css/global.css"/>
     <link rel="stylesheet" type="text/css" href="/css/sign-up-tasker.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
@@ -17,7 +17,7 @@
         <nav class="header__nav">
             <div class="header__left-container">
                 <div class="header__logo">
-                    <img src="/img/home-page-intro.png" alt="Logo">
+                    <img src="/img/logo-white.png" alt="Logo">
                 </div>
                 <div class="header__menu">
                     <a href="/html/index.home.html" class="menu__item">Головна</a>
@@ -49,7 +49,7 @@
         </nav>
     </header>
 
-    <div class="sign-up-tasker__back-link"><a href="javascript:history.back()">Back</a></div>
+    <div class="sign-up-tasker__back-link"><a href="javascript:history.back()">Назад</a></div>
 
     <section class="sign-up-tasker">
         <div class="sign-up-tasker__title-container">
@@ -58,7 +58,7 @@
                 <p>Вже маєте акаунт? <a href="/html/index.sign-in.html">Увійти</a></p>
             </div>
         </div>
-        <form action="" method="get" class="sign-up-tasker__form">
+        <form action="/api/signup/tasker" method="post" class="sign-up-tasker__form">
             <div class="sign-up-tasker__form-photo">
                 <img id="profile-photo-img" class="sign-up__user-icon" src="/img/icons/user-icon.png" alt="User icon">
                 <img id="profile-photo-img" class="sign-up__add-icon" src="/img/icons/add.png" alt="Add">
@@ -66,8 +66,8 @@
                 <!-- <label class="sign-up-tasker__form-photo-title" for="profile-photo">Фото профілю: </label>-->
             </div>
             <div class="form-title-field">
-              <label class="form-title" for="name">Прізвище, ім'я або назва компанії <span class="required">*</span></label>
-              <input class="form-field" type="text" name="name" id="name" placeholder="John Doe" required />
+                <label class="form-title" for="name_tasker">Прізвище, ім'я або назва компанії <span class="required">*</span></label>
+                <input class="form-field" type="text" name="name_tasker" id="name_tasker" placeholder="John Doe" required />
             </div>
             <div class="form-title-field">
                 <label class="form-title" for="email">Електронна пошта <span class="required">*</span></label>
@@ -75,56 +75,55 @@
             </div>
             <div class="form-title-field">
                 <label class="form-title" for="phone">Номер телефону <span class="required">*</span></label>
-                <input class="form-field" type="tel" name="phone" id="phone" value="" placeholder="+38 (XXX) XXX XX XX" pattern="\+38 \([0-9]{3}\) [0-9]{3} [0-9]{2} [0-9]{2}" required />
+                <input class="form-field" type="tel" name="phone" id="phone" value="" placeholder="+38 (XXX) XXX XX XX" required /> <!--pattern="\+38 \([0-9]{3}\) [0-9]{3} [0-9]{2} [0-9]{2}"-->
             </div>
             <div class="form-title-field">
                 <label class="form-title" for="pwd">Пароль <span class="required">*</span></label>
                 <input class="form-field" type="password" name="pwd" id="pwd" required />
             </div>
             <div class="form-title-field">
-                <label class="form-title" for="name">Досвід <span class="required">*</span></label>
-                <input class="form-field high-field" type="text" name="name" id="name" required />
+                <label class="form-title" for="experience">Досвід <span class="required">*</span></label>
+                <input class="form-field high-field" type="text" name="experience" id="experience" required />
             </div>
             <div class="form-title-field">
                 <label class="form-title"for="years">Оберіть роки досвіду <span class="required">*</span></label>
                 <select class="form-select-dropdown" id="years" name="years" required>
-                  <option value="">-- Роки --</option>
-                  <option value="lessThanOne">Менше 1 року</option>
-                  <option value="one">1 рік</option>
-                  <option value="two">2 роки</option>
-                  <option value="three">3 роки</option>
-                  <option value="four">4 роки</option>
-                  <option value="five">5 років</option>
-                  <option value="six">6 років</option>
-                  <option value="seven">7 років</option>
-                  <option value="eight">8 років</option>
-                  <option value="nine">9 років</option>
-                  <option value="moreThanTen">Більше 10 років</option>
+                    <option value="">-- Роки --</option>
+                    <option value="lessThanOne">Менше 1 року</option>
+                    <option value="one">1 рік</option>
+                    <option value="two">2 роки</option>
+                    <option value="three">3 роки</option>
+                    <option value="four">4 роки</option>
+                    <option value="five">5 років</option>
+                    <option value="six">6 років</option>
+                    <option value="seven">7 років</option>
+                    <option value="eight">8 років</option>
+                    <option value="nine">9 років</option>
+                    <option value="moreThanTen">Більше 10 років</option>
                 </select>
             </div>
             <div class="form-title-field">
-                  <label class="form-title" for="name">Посилання на Telegram <small>(необов'язково)</small>: </label>
-                  <input class="form-field" type="url" name="name" id="name" required />
+                <label class="form-title" for="telegram_url">Посилання на Telegram <small>(необов'язково)</small>: </label>
+                <input class="form-field" type="url" name="telegram_url" id="telegram_url" />
             </div>
             <div class="form-title-field">
-                  <label class="form-title" for="name">Посилання на Instagram <small>(необов'язково)</small>: </label>
-                  <input class="form-field" type="url" name="name" id="name" required />
+                <label class="form-title" for="instagram_url">Посилання на Instagram <small>(необов'язково)</small>: </label>
+                <input class="form-field" type="url" name="instagram_url" id="instagram_url" />
             </div>
             <div class="form-title-field">
-                  <label class="form-title" for="name">Посилання на Facebook <small>(необов'язково)</small>: </label>
-                  <input class="form-field" type="url" name="name" id="name" required />
+                <label class="form-title" for="facebook_url">Посилання на Facebook <small>(необов'язково)</small>: </label>
+                <input class="form-field" type="url" name="facebook_url" id="facebook_url" />
             </div>
-
-              <div class="form-submit-button">
+            <div class="form-submit-button">
                 <input class="white-button" type="submit" value="Зареєструватись" />
             </div>
-          </form>
+        </form>
     </section>
 
     <footer>
         <div class="footer__top-container">
             <div class="footer__logo">
-                <img src="/img/home-page-intro.png" alt="Logo">
+                <img src="/img/logo-white.png" alt="Logo">
             </div>
             <nav class="footer__nav">
                 <div class="footer__menu">
@@ -143,5 +142,6 @@
     </footer>
 
     <script src="/js/sign-up-tasker.js"></script>
+    <script src="/api/script.js"></script>
 </body>
 </html>

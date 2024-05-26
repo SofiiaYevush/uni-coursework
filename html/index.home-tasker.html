@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Головна</title>
     <link rel="stylesheet" type="text/css" href="/css/global.css"/>
 	<link rel="stylesheet" type="text/css" href="/css/home-tasker.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
@@ -17,7 +17,7 @@
         <nav class="header__nav">
             <div class="header__left-container">
                 <div class="header__logo">
-                    <img src="/img/home-page-intro.png" alt="Logo">
+                    <img src="/img/logo-white.png" alt="Logo">
                 </div>
                 <div class="header__menu">
                     <a href="/html/index.home.html" class="menu__item">Головна</a>
@@ -39,6 +39,9 @@
                         </div>   
                     </div>
                 </div>
+            </div>
+            <div class="header__user">
+                Привіт, <span id="username"></span>!
             </div>
             <div class="header__right-container">                
                 <div class="header__search-icon">
@@ -163,7 +166,7 @@
     <footer>
         <div class="footer__top-container">
             <div class="footer__logo">
-                <img src="/img/home-page-intro.png" alt="Logo">
+                <img src="/img/logo-white.png" alt="Logo">
             </div>
             <nav class="footer__nav">
                 <div class="footer__menu">
@@ -185,5 +188,6 @@
     <script src="/js/index.js"></script>
     <script src="/js/categories-carousel.js"></script>
     <script src="/js/testimonials-tasker.js"></script>
+    <script src="/api/script.js"></script>
 </body>
 </html>

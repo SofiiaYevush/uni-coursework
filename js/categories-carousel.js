@@ -3,7 +3,9 @@ const slides = [
     '<div><img src="/img/categories-carousel/moving-category.jpg" id="carousel-img-moving" alt="Moving"><p>Перевезення</p></div>',
     '<div><img src="/img/categories-carousel/repair-house-category.jpg" id="carousel-img-repair-house" alt="House repair"><p>Ремонт будинку</p></div>',
     '<div><img src="/img/categories-carousel/woodworking-category.jpg" id="carousel-img-woodworking" alt="Woodworking"><p>Роботи з деревом</p></div>',
-    '<div><img src="/img/categories-carousel/repair-of-devices-category.jpg" id="carousel-img-repair-of-devices" alt="Repair of devices"><p>Ремонт техніки</p></div>'
+    '<div><img src="/img/categories-carousel/repair-of-devices-category.jpg" id="carousel-img-repair-of-devices" alt="Repair of devices"><p>Ремонт техніки</p></div>',
+    '<div><img src="/img/categories-carousel/gardening-category.jpg" id="carousel-img-gardening" alt="Gardening"><p>Догляд саду</p></div>',
+    '<div><img src="/img/categories-carousel/petcare-category.png" id="carousel-img-petcare" alt="Gardening"><p>Догляд за тваринами</p></div>'
 ];
 
 let currentSlide = 0;

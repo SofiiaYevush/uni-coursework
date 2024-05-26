@@ -56,7 +56,7 @@
 }
 
 .about-us__heading-logo img{
-    width: 80px;
+    width: auto;
     height: 80px; 
     object-fit: cover;
 }
